@@ -6,8 +6,10 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `김기린`,
     siteTitleAlt: `김기린`,
     siteHeadline: `김기린 블로그`,
+    author: `김기린`,
   },
   plugins: [
     {
@@ -26,12 +28,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `GitHub`,
+            url: `https://github.com/simulacre7/`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/1875/`,
           },
         ],
       },
